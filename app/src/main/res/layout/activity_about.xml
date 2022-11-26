@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/cardview_light_background"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dip"
+        android:contentDescription="TODO"
+        app:srcCompat="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Zakat Calculator"
+        android:layout_marginTop="16dip"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="24sp"
+        android:textStyle="italic|bold"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:text="CopyrightZakatItuRukunIslam"
+        android:layout_marginTop="12dip"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:text="Source Code Link"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:text="MUHAMMAD ZULHELMI BIN MUHAMMAD OTHMAN"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:text="STUDENT ID: 2020618198"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:text="GROUP: D1CS2405A"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:text="PROGRAMME CODE: CS240"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        />
+
+
+</RelativeLayout>
